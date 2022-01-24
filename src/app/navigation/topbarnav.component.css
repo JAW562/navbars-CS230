@@ -1,0 +1,107 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFF;
+  }
+
+  li {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  li a {
+      display:block;
+    color: black;
+    text-align: center;
+    top:0px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+
+  li a:hover {
+    background-color: #111;
+    color: white;
+    
+  }
+
+
+
+
+.logo{ 
+	position:absolute; 
+	top:0px; 
+	left:170px;
+} 
+
+.searchborder{
+    border:2px transparent grey;
+    border-radius:4px;
+    padding:5px;
+    outline:none;
+    
+}
+
+#searchbar{
+position: absolute;
+top:-3px;
+left:230px
+}
+
+#forum{
+    position: absolute;
+    top: 0px;
+    left: 540px;
+}
+
+#stats{
+    position: absolute;
+    top: 0px;
+    left: 620px;
+}
+
+#submit{
+    position: absolute;
+    top: 0px;
+    left: 700px;
+}
+
+#join{
+    position: absolute;
+    top:0px;
+    left:1200px
+}
+
+#login{
+    position: absolute;
+    top:0px;
+    left:1280px
+}
+
+.font{
+    font-family: Arial, "Ludica Sans Unicode";
+    font-size: 87.5%;
+    color: #484848;
+}
+
+.searchbarlook{
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 10px 10px 10px;
+    padding: 0 10px 0 20px;
+    width: 270px;
+    background-color: #f7f7f7;
+    color: #444444;
+    font-family: Arial, "Ludica Sans Unicode";
+    font-size: 85%;
+
+}
+
+
+

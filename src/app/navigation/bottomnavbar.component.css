@@ -1,0 +1,85 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+  
+  .right{
+      float:right;
+  }
+
+.firstcolumn{
+    position:absolute;
+    left: 100px;
+    bottom: 80px;
+    font-family: Arial, "Ludica Sans Unicode";
+    
+}
+
+.contact{
+    position:absolute;
+    left: 100px;
+    bottom: 70px;
+    font-family: Arial, "Ludica Sans Unicode";
+    size:65%;
+   
+}
+
+.code{
+    position:absolute;
+    left: 100px;
+    bottom: 45px; 
+    font-family: Arial, "Ludica Sans Unicode";
+    size:65%;
+}
+
+.privacy{
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    font-family: Arial, "Ludica Sans Unicode";
+    size:65%;
+}
+
+.social{
+    position: absolute;
+    left: 500px;
+    bottom: 80px;
+    font-family: Arial, "Ludica Sans Unicode";
+}
+
+.discord{
+    position: absolute;
+    left: 500px;
+    bottom: 70px;
+    font-family: Arial, "Ludica Sans Unicode";
+    size:65%;
+}
+
+.facebook{
+    position: absolute;
+    left: 500px;
+    bottom:45px;
+    font-family: Arial, "Ludica Sans Unicode";
+    size:65%;
+}
+
+.twitter{
+    position: absolute;
+    left: 500px;
+    bottom: 3px;
+    font-family: Arial, "Ludica Sans Unicode";
+    size:65%;
+}
