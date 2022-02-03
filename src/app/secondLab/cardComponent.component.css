@@ -1,0 +1,37 @@
+.card-dimensions{
+    padding:10px;
+    max-width: 500px;
+}
+
+
+.accurate{
+    padding:5px;
+    background-color: #287fc2;
+
+}
+
+.card-background{
+    background-image: "assets/god-of-war-pc-game-steam-cover.jpg";
+    background-color: #171717;
+}
+
+.text{
+    color: #f7f7f7;
+    size:13px;
+    font-family: Arial, "Ludica Sans Unicode";
+}
+
+.titleText{
+    color: #f7f7f7;
+    size:16.5px;
+    font-family: Arial, "Ludica Sans Unicode";
+    font-weight:bold ;
+}
+
+.grow{
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover{
+    transform: scale(1.1);
+}

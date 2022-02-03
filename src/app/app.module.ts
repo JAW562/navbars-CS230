@@ -4,14 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/topbarnav.component';
-import { CardNumberComponent } from './NumberCardUpdater/cardnumber.component';
+import { CardComponent } from './secondLab/cardComponent.component';
+import { SearchBarComponent } from './secondLab/searchbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     BottomNavBarComponent,
-    CardNumberComponent
+    CardComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,

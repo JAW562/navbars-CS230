@@ -1,0 +1,29 @@
+
+
+.size{
+max-height: 13%;
+max-width:15%;
+}
+
+.location{
+    z-index: 1000;
+    position: absolute;
+    top:418px;
+    left:1000px
+}
+
+.steamBox{
+    padding: 30px;
+    background-color: #000000;
+    position: relative;
+    top: 70%;
+    width: 100%
+}
+.searchBarLook{
+    width:50%;
+
+}
+.buttonPos{
+    top: 418px;
+    left: 980px
+}
