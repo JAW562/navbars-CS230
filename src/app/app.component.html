@@ -1,7 +1,10 @@
 <fm-topnavbar>Loading...</fm-topnavbar>
 <div class="container-fluid d-flex">
-<fm-cardcomponent>Loading...</fm-cardcomponent>
-<fm-cardcomponent>Loading...</fm-cardcomponent>
+    <div *ngFor = "let game of games">
+<fm-cardcomponent img={{game.img}}
+name={{game.name}} year={{game.year}} main={{game.main}}
+mex={{game.mex}} comp={{game.comp}}>Loading...</fm-cardcomponent>
+</div>
 </div>
 <fm-searchbar>Loading...</fm-searchbar>
 <fm-bottomnavbar>Loading...</fm-bottomnavbar>
