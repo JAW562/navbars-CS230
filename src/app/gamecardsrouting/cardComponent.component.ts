@@ -1,3 +1,4 @@
+
 import {Component, Input} from "@angular/core"
 
 @Component({
@@ -15,6 +16,7 @@ export class CardComponent{
     @Input() main: string;
     @Input() mex: string;
     @Input() comp: string;
+    @Input() backImg: string;
 
     constructor(){
         this.img ="";
@@ -23,6 +25,7 @@ export class CardComponent{
         this.main="Main story time";
         this.mex="Main+extra time";
         this.comp="Comp time";
+        this.backImg =""
     }
 
 }

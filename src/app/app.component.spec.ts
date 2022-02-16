@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'navbars-CS230'`, () => {
+  it(`should have as title 'how-to-beat-CS230'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('navbars-CS230');
+    expect(app.title).toEqual('how-to-beat-CS230');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('navbars-CS230 app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('how-to-beat-CS230 app is running!');
   });
 });
