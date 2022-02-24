@@ -1,0 +1,41 @@
+.box {
+    background-color: #328ED6;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding:70px;
+  }
+  
+
+  .textHeaderDesign{
+    color: #ffffff;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .textBodyDesign{
+    color: #ffffff;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .cardBox{
+    height: 112%;
+    width: 100%;
+    padding:100px;
+    background-color: #171717;
+    position: absolute;
+    margin-bottom: 0px;
+  }
+
+  .textAdd{
+    color: #ec9444;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-weight: bold;
+    }
+
+
+

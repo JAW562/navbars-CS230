@@ -1,0 +1,20 @@
+<div class="headerBox">
+    <h3 class="header">Welcome to the HowLongToBeat Forum</h3>
+    <h6 class="header">Check out the latest discussion!</h6>
+
+</div>
+<div class="threadBox">
+    <h6 class="greenText">New Converstations</h6>
+    <button type="button" class="btn btn-primary btns">Threads</button><button type="button" class="btn btn-primary btns">Posts</button>
+</div>
+
+<div class="decoBox">
+<h6 class="header">Recent Gaming</h6>
+
+</div>
+<div *ngFor = "let post of posts">
+<fm-forum-posts name={{post.name}} replies={{post.replies}} userReply={{post.userReply}} user={{post.user}} views={{post.views}} time={{post.time}}>Loading...</fm-forum-posts>
+</div>
+
+
+

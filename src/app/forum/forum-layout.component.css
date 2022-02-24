@@ -1,0 +1,49 @@
+.headerBox{
+    background-color: #171717;
+    height:100%;
+    width:100%;
+    padding:100px;
+}
+
+.header{
+    color:#f7f7f7;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-weight: bold;
+}
+
+.threadBox{
+    position: relative;
+    left: 15%;
+background-color: #EEEEEE;
+width:70%;
+height:10%;
+padding: 30px;
+margin-top: 15px
+}
+
+.greenText{
+    color:#3DA949;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-weight: bold;
+
+}
+
+.btns{
+    margin-left: 1%;
+    margin-top: 2%;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-weight: bold; 
+    background-color: transparent;
+    border-color: #171717;
+    color:#171717;
+}
+
+.decoBox{
+    background-color: #328ED6;
+    height: 80%;
+    width: 70%;
+    left: 15%;
+    position: relative;
+    margin-top: 10px;
+
+}

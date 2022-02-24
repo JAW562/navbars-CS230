@@ -1,0 +1,52 @@
+
+.backgroundMain{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://howlongtobeat.com/img/index/tv_zelda.jpeg);
+padding: 200px;
+}
+
+.textHeader{
+    color: #f7f7f7;
+    font-family: Forque;
+    font-weight: bolder;
+    font-size:450%;
+
+}
+
+.textAdd{
+color: #ec9444;
+font-family: Arial, "Lucida Sans Unicode";
+font-weight: bold;
+font-size: large;
+}
+
+sup {
+    position: relative;
+    font-size: 40%;
+    line-height: 0;
+    vertical-align: baseline;
+    top: -1.2em;
+}
+
+.textMain{
+    color: #F7F7F7;
+    font-size: 100%;
+    list-style: square;
+    margin-left: 3%;
+    font-family: Arial, "Lucida Sans Unicode";
+}
+
+.firstBtn{
+    margin-left: 3%;
+    margin-top: 2%;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-weight: bold;
+}
+
+.secondBtn{
+    margin-left: 1%;
+    margin-top: 2%;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-weight: bold; 
+    background-color: transparent;
+    border-color: #F7F7F7;
+}

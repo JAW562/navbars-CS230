@@ -1,7 +1,31 @@
+.backgroundImage{
+    background-image: linear-gradient(rgb(35 48 35 / 95%), rgb(35 48 35 / 85%), rgb(35 48 35 / 95%)), url(https://store-images.s-microsoft.com/image/global.47673.acentoprodimg.40520333-055e-420a-bd6e-39b85591ccd3.65c04579-754f-40be-a1f2-f0e983dba803);
+    background-size: cover;
+    padding:250px;
+    height: 50%;
+    top:318%;
+    width:100%;
+    position: absolute;
+}
+
+.textHeader{
+    color: #3DA949;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, "Lucida Sans Unicode";
+    position: relative;
+    top:-130px
+
+}
+
 .card-dimensions{
     padding:10px;
     max-width: 500px;
     margin:10px;
+    top:35%;
+    left:15%
+
 }
 
 
@@ -52,12 +76,3 @@
     font-family: Arial, "Ludica Sans Unicode";
     font-weight:bold ;
 }
-
-.grow{
-    transition: all .2s ease-in-out;
-}
-
-.grow:hover{
-    transform: scale(1.1);
-}
-

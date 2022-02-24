@@ -1,0 +1,65 @@
+
+
+.card-dimensions{
+    padding:10px;
+    max-width: 500px;
+    margin:10px;
+}
+
+
+.accurate{
+    box-sizing: border-box;
+    padding:0px;
+    width: 46%;
+    background-color: #287fc2;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0 0 1px 4%;
+    padding: 9px 0;
+    text-align: center;
+
+}
+
+.card-background{
+    background-image: linear-gradient(rgb(31, 31, 31), rgba(31, 31, 31, 0.9)), url(https://opengameart.org/sites/default/files/rock_4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #1b1b1b;
+    border-radius: 4px;
+    float: left;
+    list-style: none;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.text{
+    color: #f7f7f7;
+    size:13px;
+    font-family: Arial, "Ludica Sans Unicode";
+    text-align: left;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0 0 1px 4%;
+    padding: 9px 0;
+}
+
+.titleText{
+    color: #f7f7f7;
+    size:16.5px;
+    font-family: Arial, "Ludica Sans Unicode";
+    font-weight:bold ;
+}
+
+.grow{
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover{
+    transform: scale(1.1);
+}
+

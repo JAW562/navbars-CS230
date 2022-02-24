@@ -1,0 +1,42 @@
+.postBox{
+    background-color: #EEEEEE;
+    height: 80%;
+    width: 70%;
+    left: 15%;
+    position: relative;
+    margin-top: 3px;
+}
+
+.btnArrow{
+    margin-left: 3%;
+    margin-top: 2%;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-weight: bold;
+}
+
+.display{
+    display: inline;
+}
+
+.userUpdateReply{
+    position: relative;
+    right:-60%;
+    text-align:right;
+}
+
+.viewsTime{
+    position:relative; 
+    right:-75%;
+}
+
+.postBtn{
+    position: relative;
+    font-family: Arial, "Lucida Sans Unicode";
+    font-weight: bold;
+    right:1%;
+    top:5%;
+}
+
+.userFont{
+   color: #2577b6;
+}

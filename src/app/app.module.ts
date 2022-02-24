@@ -2,13 +2,23 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
-import { TopNavBarComponent } from './navigation/topbarnav.component';
-import { CardComponent } from './gamecardsrouting/cardComponent.component';
-import { SearchBarComponent } from './gamecardsrouting/searchbar.component';
-import { ForumLayoutComponent } from './gamecardsrouting/forum-layout.component';
+import { BottomNavBarComponent } from './headerAndFooter/bottomnavbar.component';
+import { TopNavBarComponent } from './headerAndFooter/topbarnav.component';
+import { CardComponent } from './homePage/cardComponent.component';
+import { SearchBarComponent } from './homePage/searchbar.component';
+import { ForumLayoutComponent } from './forum/forum-layout.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HomeLayoutComponent } from './gamecardsrouting/home-layout.component';
+import { HomeLayoutComponent } from './homePage/home-layout.component';
+import { NumberUpdaterComponent } from './homePage/numberUpdater.component';
+import { MainSegmentComponent } from './homePage/main-segment.component';
+import { GamePassComponent } from './homePage/gamePass.component';
+import { ExampleComponent } from './homePage/example.component';
+import { MobileViewExampleComponent } from './homePage/mobileViewExample.component';
+import { StatsLayoutComponent } from './stats/stats-layout.component';
+import { LoginLayoutComponent } from './login/login-layout.component';
+import { JoinLayoutComponent } from 'src/app/join/join-layout.component';
+import { SubmitLayoutComponent } from 'src/app/submit/submit-layout.component';
+import { ForumPostsComponent } from './forum/forum-posts.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +28,17 @@ import { HomeLayoutComponent } from './gamecardsrouting/home-layout.component';
     CardComponent,
     SearchBarComponent,
     ForumLayoutComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    NumberUpdaterComponent,
+    MainSegmentComponent,
+    GamePassComponent,
+    ExampleComponent,
+    MobileViewExampleComponent,
+    StatsLayoutComponent,
+    LoginLayoutComponent,
+    JoinLayoutComponent,
+    SubmitLayoutComponent,
+    ForumPostsComponent
   ],
   imports: [
     BrowserModule,
