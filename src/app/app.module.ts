@@ -19,6 +19,8 @@ import { LoginLayoutComponent } from './login/login-layout.component';
 import { JoinLayoutComponent } from 'src/app/join/join-layout.component';
 import { SubmitLayoutComponent } from 'src/app/submit/submit-layout.component';
 import { ForumPostsComponent } from './forum/forum-posts.component';
+import { HttpClientModule } from '@angular/common/http'
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -38,11 +40,13 @@ import { ForumPostsComponent } from './forum/forum-posts.component';
     LoginLayoutComponent,
     JoinLayoutComponent,
     SubmitLayoutComponent,
-    ForumPostsComponent
+    ForumPostsComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
