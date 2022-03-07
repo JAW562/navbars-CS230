@@ -1,6 +1,6 @@
-import { Component } from "@angular/core";
-import {mock_games_list} from './mock_games_list';
+import { Component, OnInit } from "@angular/core";
 import {GameItemModel} from './game-item.model';
+import { GamesService } from "./games.service";
 
 
 @Component({
@@ -8,12 +8,21 @@ import {GameItemModel} from './game-item.model';
     templateUrl: 'home-layout.component.html'
 })
 
-export class HomeLayoutComponent {
+export class HomeLayoutComponent implements OnInit {
     games: GameItemModel [] = [];
 
-  constructor() {
-    for(var game of mock_games_list) {
+  constructor(private gamesService:GamesService) {
+   
+  }
+
+  ngOnInit(): void {
+    this.gamesService.getGames().subscribe((data: GameItemModel [])=>{
+    console.log("Fetching Games from DB");
+    for(var game of data) {
+      console.log(game);
       this.games.push(game);
     }
+
+    });
   }
 }
