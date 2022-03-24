@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/how-to-beat-cs230",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
