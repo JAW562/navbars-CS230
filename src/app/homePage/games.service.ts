@@ -1,4 +1,4 @@
-import { HttpClient } from "@angular/common/http";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { Injectable } from "@angular/core";
 import { GameItemModel } from "./game-item.model";
 
@@ -8,20 +8,25 @@ import { GameItemModel } from "./game-item.model";
 )
 
 export class GamesService {
-    private baseUrl: string = "https://how-to-beat-cs230-default-rtdb.firebaseio.com/";
-    private gamesEndpoint: string = "Games.json";
 
-    constructor(private http:HttpClient) {
+
+    constructor(private db:AngularFireDatabase) {
 
     }
 
-    getGames() {
-        return this.http.get<GameItemModel [] >(this.baseUrl + this.gamesEndpoint);
+    public getGames() {
+        return this.db.list<GameItemModel>("Games").valueChanges();
+        
     }
 
 
-    getGame(index:number){
-        return this.http.get<GameItemModel >(this.baseUrl + 'games' + '/' + index + '.json');
+    public getGame(index:number){
+        return this.db.list<GameItemModel>("Games");
 
+    }
+
+
+    public addGames(game:GameItemModel) {
+        this.db.list<GameItemModel>("Games").push(game);
     }
 }

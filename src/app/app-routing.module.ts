@@ -7,11 +7,16 @@ import { StatsLayoutComponent } from './stats/stats-layout.component';
 import { LoginLayoutComponent } from './login/login-layout.component';
 import { JoinLayoutComponent } from 'src/app/join/join-layout.component';
 import { SubmitLayoutComponent } from 'src/app/submit/submit-layout.component';
+import { AddGameCardComponent } from './homePage/add-game-card/add-game-card.component';
 
 const routes:Routes = [
   {
     path:'', component: HomeLayoutComponent,
   
+  },
+  {
+    path:'admin', component: AddGameCardComponent
+
   },
   {
     path:'forum', component: ForumLayoutComponent

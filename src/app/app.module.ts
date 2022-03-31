@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AppComponent } from './app.component';
 import { BottomNavBarComponent } from './headerAndFooter/bottomnavbar.component';
 import { TopNavBarComponent } from './headerAndFooter/topbarnav.component';
@@ -21,6 +22,9 @@ import { SubmitLayoutComponent } from 'src/app/submit/submit-layout.component';
 import { ForumPostsComponent } from './forum/forum-posts.component';
 import { HttpClientModule } from '@angular/common/http'
 import { UserInfoComponent } from './user-info/user-info.component';
+import { environment } from '../environments/environment';
+import { AddGameCardComponent } from './homePage/add-game-card/add-game-card.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -41,12 +45,16 @@ import { UserInfoComponent } from './user-info/user-info.component';
     JoinLayoutComponent,
     SubmitLayoutComponent,
     ForumPostsComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddGameCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

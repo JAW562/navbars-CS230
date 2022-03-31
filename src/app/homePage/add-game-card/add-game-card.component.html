@@ -1,0 +1,58 @@
+<div class = "container">
+    <div class = "row">
+        <div class = "col-8 margin">
+            <form #postForm="ngForm" (ngSubmit) = "addGame(postForm.value)"> 
+
+
+
+                <div class="input-group">
+                    <span class ="input-group-text">
+                        Image Path: 
+                    </span>
+                <input type = "text" class = "form-control" ngModel name="img">
+            </div>
+
+            <div class="input-group">
+                <span class ="input-group-text">
+                    Name: 
+                </span>
+            <input type = "text" class = "form-control" ngModel name="name">
+        </div>
+
+
+        <div class="input-group">
+            <span class ="input-group-text">
+                Year (Optional):
+            </span>
+        <input type = "text" class = "form-control" ngModel name="year">
+    </div>
+
+    <div class="input-group">
+        <span class ="input-group-text">
+            Main Story:
+        </span>
+    <input type = "text" class = "form-control" ngModel name="main">
+</div>
+
+
+<div class="input-group">
+    <span class ="input-group-text">
+        Main + Extra: 
+    </span>
+<input type = "text" class = "form-control" ngModel name="mex">
+</div>
+
+
+<div class="input-group">
+    <span class ="input-group-text">
+        Completionist: 
+    </span>
+<input type = "text" class = "form-control" ngModel name="comp">
+</div>
+
+<button class="btn" type="submit">Add Game</button>
+
+            </form>
+        </div>
+    </div>
+</div>
