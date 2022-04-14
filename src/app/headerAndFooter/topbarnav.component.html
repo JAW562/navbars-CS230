@@ -21,7 +21,7 @@
     </div>
       <ul>
         <div id="forum">
-        <li class="font"><a routerLinkActive="active" routerLink="forum">Forum</a></li>
+        <li class="font"><a routerLinkActive="active" routerLink="forum" *ngIf="isAuthenticated">Forum</a></li>
       </div>
       <div id="stats">
         <li class="font"><a routerLinkActive="active" routerLink="stats">Stats</a></li>
