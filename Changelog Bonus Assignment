@@ -1,0 +1,5 @@
+Release Notes for Bonus Assignments:
+
+New Features:
+-Changed test document for main app component to not include title parse.
+-Added new test components for card components in order to test cards have correct information
