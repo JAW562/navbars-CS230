@@ -1,0 +1,9 @@
+Release Notes for Version 1.0:
+
+New Features:
+- Added ability to creata an account using database
+- Added ability to login to account, information comes from database.
+- Forum now only displays for logged in Users. Will not display for those logged in
+
+Bonus Features:
+- Access the console to see the date of the log in, login token, and token expiration date.
